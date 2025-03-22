@@ -913,12 +913,14 @@ body.light-mode .btn:hover {
     }
 
     header nav ul {
-        flex-direction: column; /* Stack navigation links vertically */
+        flex-direction: row; /* Stack navigation links vertically */
         gap: 10px;
+        flex-wrap: wrap;
     }
 
     header nav ul li a {
         font-size: 14px; /* Smaller navigation links */
+        padding: 5px;
     }
 
     .hero {
